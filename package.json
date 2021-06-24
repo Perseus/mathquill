@@ -2,10 +2,18 @@
   "name": "@perseus/mathquill",
   "version": "1.0.0",
   "description": "Rollup wrapper for MathQuill",
-  "main": "index.js",
+  "main": "dist/bundle.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "rollup -c"
   },
+  "files": [
+    "dist/**",
+    "src/**",
+    ""
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Perseus/mathquill.git"
@@ -20,12 +28,14 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
+    "@rollup/plugin-node-resolve": "^13.0.0",
     "babel": "^6.23.0",
     "rollup": "^2.52.2",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-filesize": "^9.1.1",
-    "rollup-plugin-progress": "^1.1.2"
+    "rollup-plugin-progress": "^1.1.2",
+    "rollup-plugin-uglify": "^6.0.4"
   },
   "types": "src/index.d.ts"
 }

@@ -1,5 +1,4 @@
-import jQuery from 'jquery';
-
+import 'jquery';
 window.jQuery = jQuery;
 
 import './mathquill/mathquill.min.js';
