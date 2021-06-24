@@ -10,7 +10,7 @@ export default {
   input: 'src/index.js',
   output: {
     file: 'dist/bundle.js',
-    format: 'cjs',
+    format: 'es',
   },
   plugins: [ 
     css({ output: 'bundle.css' }),
@@ -20,6 +20,6 @@ export default {
     filesize(),
     progress(),
     nodeResolve(),
-    uglify(),
+    // uglify(),
    ],
 };

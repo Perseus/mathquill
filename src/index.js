@@ -1,6 +1,4 @@
 import 'jquery';
-window.jQuery = jQuery;
-
 import './mathquill/mathquill.min.js';
 import './mathquill/mathquill.css';
 
