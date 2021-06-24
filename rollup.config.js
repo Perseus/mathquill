@@ -3,7 +3,6 @@ import babel from 'rollup-plugin-babel';
 import filesize from 'rollup-plugin-filesize';
 import progress from 'rollup-plugin-progress';
 import {  nodeResolve } from '@rollup/plugin-node-resolve';
-import { uglify } from 'rollup-plugin-uglify';
 
 
 export default {
@@ -20,6 +19,5 @@ export default {
     filesize(),
     progress(),
     nodeResolve(),
-    // uglify(),
    ],
 };
