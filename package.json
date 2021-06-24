@@ -1,5 +1,5 @@
 {
-  "name": "mathquill",
+  "name": "@perseus/mathquill",
   "version": "1.0.0",
   "description": "Rollup wrapper for MathQuill",
   "main": "index.js",
