@@ -1,5 +1,3 @@
-'use strict';
-
 /*!
  * jQuery JavaScript Library v3.6.0
  * https://jquery.com/
@@ -12956,4 +12954,4 @@ return jQuery;
 
 const MathQuill = window.MathQuill;
 
-module.exports = MathQuill;
+export default MathQuill;

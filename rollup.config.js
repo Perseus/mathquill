@@ -9,7 +9,7 @@ export default {
   input: 'src/index.js',
   output: {
     file: 'dist/bundle.js',
-    format: 'cjs',
+    format: 'es',
   },
   plugins: [ 
     css({ output: 'bundle.css' }),
